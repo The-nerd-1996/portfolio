@@ -73,6 +73,12 @@
         width: 250px;
         height: 250px;
     }
+    .about-content {
+         width: 80%;
+         padding: 0 auto;
+         margin: 0 auto;
+
+}
 }
 
 @media (max-width: 576px) {
@@ -98,4 +104,5 @@
     .hero-description {
         font-size: 1rem;
     }
+
 }
