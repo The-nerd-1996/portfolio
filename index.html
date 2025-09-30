@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natnael | Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><img src="images/android-chrome-192x192.png" alt="logo" class="my-logo"></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Natnael Abu</span></h1>
+                <h2 class="hero-subtitle">Aspiring <span id="typed-text"></span></h2>
+                <p class="hero-description">I'm passionate about creating innovative solutions and eager to apply my skills in a professional environment.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+      
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a dedicated student with a strong interest in Software development. I enjoy solving complex problems and continuously learning new technologies.</p>
+                    <p>Currently pursuing my degree in Electrical and Computer engineering at Debremarkos University, I'm looking for internship opportunities to gain hands-on experience and contribute to real-world projects.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <strong>Email:</strong> natnaelabu2119@gmail.com
+                        </div>
+                        <div class="detail-item">
+                            <strong>Location:</strong> Jemo 2, Shagar City
+                        </div>
+                        <div class="detail-item">
+                            <strong>Education:</strong>  <p>B.S. Electricsl and Computer Engineering<br>Debremarkos University<br>Expected Graduation:June 2026
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML and CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SASS and BOOTSTRAP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                         <div class="skill-item">
+                            <span class="skill-name">MongoDb and Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React and Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Teamwork</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                         <div class="skill-item">
+                            <span class="skill-name">Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Workload Handling</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Adaptability</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                            <img src="images/omnifood.png" alt="food delivery website">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food delievery website</h3>
+                        <p>landing page for food making and delievery organizetion using HTML and CSS.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                            <img src="images/natoura.png" alt="travel agency website">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel website</h3>
+                        <p>landing page for travel agency using HTML and sass.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">SASS</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                           <img src="images/lms.png" alt="LMS project image">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Library management system</h3>
+                        <p>LMS that includes admin and user role with different features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">mongoDb</span>
+                            <span class="tech-tag">express.js</span>
+                            <span class="tech-tag">node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/The-nerd-1996/lms.git" class="project-link"><i class="fab fa-github"></i> Code</a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for internship opportunities. Feel free to reach out if you think I'd be a good fit for your team!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>natnaelabu2119@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+251912332888</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Addis Abeba, Ethiopia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/The-nerd-1996" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/natnael-abu-08b208342/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://t.me/amrnk2119" target="_blank" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="https://instagram.com/natanu_19" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+<form id="contactForm">
+    <div class="form-group">
+        <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" id="email" name="from_email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" id="submitBtn">
+        <span class="btn-text">Send Message</span>
+        <div class="loading-spinner" style="display: none;">
+            <i class="fas fa-spinner fa-spin"></i> Sending...
+        </div>
+    </button>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
