@@ -30,12 +30,11 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-  .container {
-    width: min(92%, 1400px);
+.container{
+    width: 92%;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-}
 }
 
 section {
@@ -186,14 +185,14 @@ section {
 }
 
 /* Hero Section */
-.hero {
+.hero
    .hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 120px 0 80px;
     background: #fff;
-}
+
 }
 
 .hero-container{
