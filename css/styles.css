@@ -194,15 +194,11 @@ section {
     padding: 120px 0 80px;
 }
 
-.hero-container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
 }
 
 .hero-content {
