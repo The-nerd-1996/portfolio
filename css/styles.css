@@ -184,10 +184,10 @@ section {
     transition: var(--transition);
 }
 
-/* Hero Section */
+/* Hero Section – white background */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: var(--white);
+    background: #fff;  /* Changed from gradient to white */
+    color: var(--text-color);  /* dark text for readability */
     padding: 150px 100px;
     min-height: 100vh;
     display: flex;
@@ -210,18 +210,21 @@ section {
     font-size: 3.5rem;
     margin-bottom: 10px;
     line-height: 1.2;
+    color: var(--text-color);  /* dark */
 }
 
 .hero-subtitle {
     font-size: 1.8rem;
     margin-bottom: 20px;
     font-weight: 400;
+    color: var(--light-text);  /* lighter for contrast */
 }
 
 .hero-description {
     font-size: 1.2rem;
     margin-bottom: 30px;
     max-width: 600px;
+    color: var(--light-text);
 }
 
 .hero-buttons {
@@ -229,9 +232,8 @@ section {
     gap: 15px;
 }
 
-
 .hero-img {
-    background: #fff !important;
+    background: #fff !important;  
     overflow: hidden;
     width: 400px;
     height: 400px;
@@ -246,6 +248,10 @@ section {
     display: block;
 }
 
+/* Keep .highlight as is (primary color) */
+.highlight {
+    color: var(--primary-color);
+}
 /* About Section */
 .about {
     background: var(--bg-light);
